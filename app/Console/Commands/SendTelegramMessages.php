@@ -18,10 +18,10 @@ class SendTelegramMessages extends Command
 
     public function handle()
     {
-        $token = '7041977828:AAHeWao5YWe_OWqhrzzCtygn70p4fiTUbek';
-        $chat_id = '604963944';
-        $otp = '123456';
-        $email = 'test@gengsfun.com';
+        $token = '<your bot token>';
+        $chat_id = '<chatid>';
+        $otp = 'otp';
+        $email = 'email';
         // Membuat pesan dengan format yang diinginkan
         $message = "Kode Netflix OTP: $otp\nEmail: $email";
         $client = new Client();
